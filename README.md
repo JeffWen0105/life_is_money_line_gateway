@@ -24,7 +24,7 @@ docker run -d -p 5000:5000 jeffwen0105/life_money_line_push:0.1
 ![](https://i.imgur.com/OGgksKG.png)
 
 
-詳情請參考 Line 官網介紹如何快速建置[ Line 機器人 ](https://developers.line.biz/zh-hant/docs/messaging-api/building-bot/#set-up-bot-on-line-developers-console) 。
+
 
 #### 如何查看 Line 的 UID
 
@@ -43,14 +43,8 @@ docker run -d -p 5000:5000 jeffwen0105/life_money_line_push:0.1
 ![](https://i.imgur.com/t8AtnMT.png)
 
 
----
-
-### GitHub 下載原始碼
-
-[GitHub 請點我](https://github.com/JeffWen0105/howhow/tree/main/Python/Line/lifeIsMoneyLinePush)~~
 
 
-[整包下載連結點請我](https://downgit.github.io/#/home?url=https://github.com/JeffWen0105/howhow/tree/main/Python/Line/lifeIsMoneyLinePush)~~
 
 ### 目錄結構
 
