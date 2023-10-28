@@ -71,12 +71,12 @@ class PttCrawler:
                     if not '[情報]' in title_tmp:
                         continue
                     get_data = _.find(attrs={"class": 'date'}).text
-                    if get_data == yesterday.strftime(" %-m/%d") or get_data == today.strftime(" %-m/%d"):
+                    if get_data == yesterday.strftime(" %-m/%d").strip() or get_data.strip() == today.strftime(" %-m/%d").strip():
                         self.title.append(title_tmp)
                     for url_a in all_div.findAll('a'):
                         url_tmp = url_a.get('href')
                         url_tmp = f"https://www.ptt.cc{url_tmp}"
-                        if get_data == yesterday.strftime(" %-m/%d") or get_data == today.strftime(" %-m/%d"):
+                        if get_data == yesterday.strftime(" %-m/%d").strip() or get_data.strip() == today.strftime(" %-m/%d").strip():
                             self.url.append(url_tmp)
 
     @logger.catch

@@ -30,7 +30,7 @@ from loguru import logger
 
 def raw_json():
     data = json.loads("""
-    {"to":"","messages":[{"type":"flex","altText":"優惠推送來拉，小資族省起來～","contents":{"type":"bubble","hero":{"type":"image","url":"https://cdn.pixabay.com/photo/2017/11/24/10/43/ticket-2974645_1280.jpg","size":"full","aspectRatio":"20:13","aspectMode":"cover"},"body":{"type":"box","layout":"vertical","contents":[{"type":"box","layout":"vertical","margin":"lg","spacing":"sm","contents":[]}]},"footer":{"type":"box","layout":"vertical","spacing":"sm","contents":[{"type":"button","style":"link","height":"sm","action":{"type":"uri","label":"HowHowWen の 官網","uri":"https://jeffwen0105.com/lifemoneylinepush"}}],"flex":0}}}]}
+    {"to":"","messages":[{"type":"flex","altText":"優惠推送來拉，小資族省起來～","contents":{"type":"bubble","hero":{"type":"image","url":"https://cdn.pixabay.com/photo/2017/11/24/10/43/ticket-2974645_1280.jpg","size":"full","aspectRatio":"20:13","aspectMode":"cover"},"body":{"type":"box","layout":"vertical","contents":[{"type":"box","layout":"vertical","margin":"lg","spacing":"sm","contents":[]}]},"footer":{"type":"box","layout":"vertical","spacing":"sm","contents":[{"type":"button","style":"link","height":"sm","action":{"type":"uri","label":"HowHow の 官網","uri":"https://how64bit.com"}}],"flex":0}}}]}
     """)
     return data
 
